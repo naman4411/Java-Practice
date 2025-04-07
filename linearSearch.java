@@ -8,6 +8,19 @@ public class linearSearch{
         int ans = linearSearch(nums, target);
         System.out.println(ans);
     }
+    static boolean linearSearch3(int[] arr, int target) {
+        if (arr.length == 0) {
+            return false;
+        }
+
+        for (int element : arr) {
+            if (element == target) {
+                return true;
+            }
+        }
+
+        return false; // <-- This line was missing
+    }  
     // search the target and return the element
     static int linearSearch2(int[] arr, int target) {
         if (arr.length == 0) {

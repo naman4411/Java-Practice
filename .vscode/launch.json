@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SearchinString",
+            "request": "launch",
+            "mainClass": "SearchinString",
+            "projectName": "Java-Practice_1728cde4"
+        },
+        {
+            "type": "java",
             "request": "attach",
             "name": "Java",
             "port": 5005,
