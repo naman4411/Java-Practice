@@ -5,8 +5,7 @@ public class table {
         System.out.print("Enter a number:");
         int number =sc.nextInt();
         System.out.println((number*1));
-     for (int i = 1; i < 11; i++) {
-         
+     for (int i = 1; i < 11; i++) {  
          System.out.println(number*i);
      }
     }
